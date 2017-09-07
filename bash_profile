@@ -22,6 +22,8 @@ do
 done
 
 export NVM_DIR="$HOME/.nvm"
+  . "/usr/local/opt/nvm/nvm.sh"
+
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 # export PATH="$HOME/.rbenv/bin:$HOME/.nvm/bin:$PATH:~/bin/"
 export PATH="$HOME/.nvm/bin:$PATH:~/bin"
