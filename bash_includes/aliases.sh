@@ -19,7 +19,7 @@ alias get="git"
 set_git_complete get _git
 
 alias branch='echo $(git rev-parse --abbrev-ref HEAD)'
-alias gitsync="${DEVTOOLS_DIR}/git-tools/sync"
+alias gitsync="~/.git-tools/sync"
 set_git_complete gitsync _git_branch
 
 
