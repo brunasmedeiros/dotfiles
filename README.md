@@ -21,3 +21,11 @@ $ git clone https://github.com/rentziass/dotfiles
 $ brew tap thoughtbot/formulae
 $ brew install rcm
 ```
+
+
+### Run RCM
+This command expects that you cloned your dotfiles to `~/dotfiles/`
+```
+$ env RCRC=$HOME/dotfiles/rcrc rcup
+```
+RCM creates dotfile symlinks (`.vimrc` -> `/dotfiles/vimrc`) from your home directory to your `/dotfiles/` directory.
